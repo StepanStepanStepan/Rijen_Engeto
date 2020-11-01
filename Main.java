@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Main {
        public static void main(String[] args) {
            //calculatorOndra();
-          // calculator();
-              calculatorValidInput();
+           calculator();
+        //      calculatorValidInput();
            //   calendarQuaters ( 13);
            //   printPole ();
 
@@ -250,6 +250,7 @@ public class Main {
             //  final String line = sc.nextLine();
         // Calculator
         // Adding
+        System.out.println("This is suppose to be second version of the code aka new commit. It does not check for valid data on input. " );
         System.out.println("Enter input, number a: " );
         final double decimal_a = sc.nextDouble();
         System.out.println("Enter input, number b: " );
